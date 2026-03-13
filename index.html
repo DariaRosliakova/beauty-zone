@@ -44,7 +44,7 @@
               <li class="header-contacts-item">
                 <a href="#">
                   <svg class="contacts-icon" width="32" height="32">
-                    <use href="./images/icons.svg#icon-tel"></use>
+                    <use href="./images/icons.svg#icon-telephone"></use>
                   </svg>
                 </a>
               </li>
@@ -77,6 +77,18 @@
             Запишись та отримай безкоштовну консультацію нашого косметолога
           </p>
         </div>
+        <div class="hero-wave">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
       </section>
       <section class="about-section" id="about-section">
         <div class="container">
@@ -101,14 +113,23 @@
               </div>
             </div>
             <div class="about-images">
+              <svg class="about-star star-1" width="64" height="64">
+                <use href="./images/icons.svg#icon-star-large"></use>
+              </svg>
+              <svg class="about-star star-2" width="40" height="40">
+                <use href="./images/icons.svg#icon-star-medium"></use>
+              </svg>
+              <svg class="about-star star-3" width="16" height="16">
+                <use href="./images/icons.svg#icon-star-small"></use>
+              </svg>
               <img
-                class="about-results"
+                class="about-results before"
                 src="./images/about/client-before.jpg"
                 alt="Зона щоки клієнтки до процедури, помітне зниження тонусу шкіри
 "
               />
               <img
-                class="about-results"
+                class="about-results after"
                 src="./images/about/client-after.jpg"
                 alt="Щока клієнтки після процедури з покращеним тонусом шкіри
 "
@@ -126,7 +147,7 @@
             <ul class="advantages-list list">
               <li class="advantages-item">
                 <svg class="advantage-icon" width="48" height="48">
-                  <use href="./images/advantage-1.svg"></use>
+                  <use href="./images/icons.svg#icon-advantage-1"></use>
                 </svg>
                 <p>
                   Всі наші косметологи мають вищу медичну освіту та стаж роботи
@@ -135,7 +156,7 @@
               </li>
               <li class="advantages-item">
                 <svg class="advantage-icon" width="48" height="48">
-                  <use href="./images/advantage-2.svg"></use>
+                  <use href="./images/icons.svg#icon-advantage-2"></use>
                 </svg>
                 <p>
                   Використовуємо тільки професійне обладнання та косметику,
@@ -144,7 +165,7 @@
               </li>
               <li class="advantages-item">
                 <svg class="advantage-icon" width="48" height="48">
-                  <use href="./images/advantage-3.svg"></use>
+                  <use href="./images/icons.svg#icon-advantage-3"></use>
                 </svg>
                 <p>
                   Наша мета - підкреслити переваги та приховати недоліки, а не
@@ -162,7 +183,7 @@
             <div class="procedures-container">
               <button class="carousel-btn" type="button">
                 <svg class="carousel-arrow" width="16" height="16">
-                  <use href="./images/arrow.svg"></use>
+                  <use href="./images/icons.svg#icon-arrow"></use>
                 </svg>
               </button>
               <ul class="procedures-list list">
@@ -176,9 +197,9 @@
                   <p class="procedures-name">Очищення обличчя</p>
                 </li>
               </ul>
-              <button class="carousel-btn" type="button">
+              <button class="carousel-btn next" type="button">
                 <svg class="carousel-arrow" width="16" height="16">
-                  <use href="./images/arrow.svg"></use>
+                  <use href="./images/icons.svg#icon-arrow"></use>
                 </svg>
               </button>
             </div>
@@ -222,7 +243,9 @@
         <div class="footer-container">
           <nav class="footer-nav">
             <div class="footer-logo">
-              <a class="link" href="./index.html">Beauty Zone</a>
+              <a class="footer-logo-link link" href="./index.html"
+                >Beauty Zone</a
+              >
             </div>
             <ul class="footer-nav-list list">
               <li class="footer-nav-item">
@@ -264,32 +287,29 @@
                   class="address-link link"
                   href="https://maps.app.goo.gl/HgKARBH4hdeFrWtv7"
                   target="_blank"
-                  >Україна, м. Київ, вул. Тараса Шевченка 5</a
+                  >Україна, м. Київ,<br />
+                  вул. Тараса Шевченка 5</a
                 >
               </li>
-              <div class="footer-socials">
-                <li>
-                  <a href="#">
-                    <svg class="address-icon" width="42" height="42">
-                      <use href="./images/icons.svg#icon-tel"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <svg class="address-icon" width="42" height="42">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <svg class="address-icon" width="42" height="42">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-              </div>
+              <li class="footer-socials">
+                <a href="#">
+                  <svg class="address-icon" width="42" height="42">
+                    <use href="./images/icons.svg#icon-telephone"></use>
+                  </svg>
+                </a>
+
+                <a href="#">
+                  <svg class="address-icon" width="42" height="42">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+
+                <a href="#">
+                  <svg class="address-icon" width="42" height="42">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
             </ul>
             <div class="address-info">
               <a class="policy-link link" href="#" target="_blank"
