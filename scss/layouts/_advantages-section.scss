@@ -64,5 +64,9 @@
       top: 40px;
       background-image: url('../images/backgrounds/wrapper-background.svg');
     }
+    @media screen and (min-width: $bp-desktop) {
+      top: -20px;
+      background-image: url('../images/backgrounds/wrapper-background.svg');
+    }
   }
 }
